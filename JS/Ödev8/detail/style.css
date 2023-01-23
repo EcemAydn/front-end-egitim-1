@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* reset css */
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(52, 51, 53);
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+}
+h1{
+    font-size: 25px;
+}
+.list, .post{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    gap: 20px;
+    
+}
+.commentControl, .post2{
+    width: 40%;
+    background-color: rgb(172, 179, 179);
+    border:1px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 10px;
+    height: 120px;
+    overflow:scroll;
+
+}
+.commentName{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.bmControl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width:100px;
+    background: none;
+    border: 2px rgb(172, 179, 179) solid;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(225, 226, 226);
+}
+.post{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.post2{
+    width: 50%;
+    background-color:rgb(53, 60, 60) ;
+    font-weight: bold;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    box-shadow: rgba(246, 241, 241, 0.935) 0px 3px 8px;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.id{
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px rgb(172, 179, 179) solid;
+}
+.edit:hover, .delete:hover{
+    box-shadow: rgba(246, 241, 241, 0.935) 0px 3px 8px;
+    background-color: rgb(172, 179, 179);
+    color:rgb(53, 60, 60) ;
+    border-color:rgb(53, 60, 60);
+}
+.postTitle{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
