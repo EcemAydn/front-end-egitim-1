@@ -24,7 +24,7 @@ function postList() {
         postId.classList.add('postId');
         posts.classList.add('posts');
 
-        postLink.href=`../detail/?id=${postItem.id}`;
+        postLink.href=`./detail/?id=${postItem.id}`;
         postLink.innerHTML = postItem.title;
         postId.innerHTML = postItem.id;
 
